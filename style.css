@@ -1,0 +1,29 @@
+body {
+  background-color: #f4f5f6;
+  font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+header {
+  min-height: 94px;
+  max-width: 1310px;
+  background-color: #f72210;
+}
+
+.weather {
+  height: 24px;
+  width: 24px;
+  margin: 0;
+}
+
+.brand-logo {
+  height: 60px;
+  width: 396px;
+  margin: 10px auto 0;
+  fill: #fff;
+}
+
+nav {
+  min-height: 56px;
+  max-width: 1310px;
+}
