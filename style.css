@@ -4,9 +4,8 @@ body {
     sans-serif;
 }
 
-header {
+#header {
   min-height: 94px;
-  max-width: 1310px;
   background-color: #f72210;
 }
 
@@ -25,5 +24,19 @@ header {
 
 nav {
   min-height: 56px;
+  width: 1349px;
+  background-color: #f72210;
+  top: 0;
+}
+
+main,
+nav,
+header {
   max-width: 1310px;
+}
+
+.brand-logo-2 {
+  height: 20px;
+  width: 132px;
+  fill: #fff;
 }
