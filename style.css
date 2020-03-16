@@ -2,11 +2,19 @@ body {
   background-color: #f4f5f6;
   font-family: 'Roboto Condensed',
     sans-serif;
+  overflow-x: hidden;
 }
 
 #header {
   min-height: 94px;
   background-color: #f72210;
+}
+
+#navbar-2 {
+  position: sticky;
+  top: 0;
+  min-height: 56px;
+  max-width: 1349px;
 }
 
 .weather {
@@ -23,8 +31,6 @@ body {
 }
 
 nav {
-  min-height: 56px;
-  width: 1349px;
   background-color: #f72210;
   top: 0;
 }
@@ -39,4 +45,42 @@ header {
   height: 20px;
   width: 132px;
   fill: #fff;
+}
+
+main h6 {
+  color: rgba(154, 154, 154);
+}
+
+.genre {
+  position: relative;
+  width: 80px;
+  background-color: #f1f2f5;
+  z-index: 1;
+  font-size: 17px;
+}
+
+.debate-border {
+  border-top: 4px solid #f92859;
+  border-bottom: 4px double lightgrey;
+}
+
+.debate-text {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.debate-image {
+  height: 63px;
+  width: 63px;
+  position: relative;
+  margin-top: -70px;
+}
+
+.bd-2 {
+  border-top: 4px solid #1c87fb;
+}
+
+.vs-circle {
+  height: 40px;
+  width: 40px;
 }
