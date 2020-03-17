@@ -3,11 +3,13 @@ body {
   font-family: 'Roboto Condensed',
     sans-serif;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 #header {
   min-height: 94px;
   background-color: #f72210;
+  position: relative;
 }
 
 #navbar-2 {
@@ -83,4 +85,48 @@ main h6 {
 .vs-circle {
   height: 40px;
   width: 40px;
+}
+
+#newsletter {
+  max-width: 300px;
+  margin: 50px auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+#newsletter span {
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.sponsored {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: auto;
+}
+
+.info {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(255, 255, 255, .9);
+  position: absolute;
+  bottom: 142px;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+}
+
+.sticky {
+  height: 1195px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.sticky::-webkit-scrollbar {
+  display: none;
 }
