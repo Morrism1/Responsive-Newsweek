@@ -12,7 +12,7 @@ This project requests students to build a replica of the news site Newsweek.com 
 
 ## Live Demo
 
-[Live Demo Link](-)
+[Live Demo Link](https://morrism1.github.io/Responsive-Newsweek/)
 
 ## Author
 
