@@ -145,3 +145,16 @@ main h6 {
   left: 0;
   z-index: 1;
 }
+
+.slideshow-info {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 44px;
+  left: 0;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+}
