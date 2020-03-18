@@ -13,10 +13,11 @@ body {
 }
 
 #navbar-2 {
-  position: sticky;
+  position: fixed;
   top: 0;
-  min-height: 56px;
-  max-width: 1349px;
+  height: auto;
+  max-width: 100%;
+  z-index: auto;
 }
 
 .weather {
@@ -95,7 +96,9 @@ main h6 {
   padding: 20px;
 }
 
-#newsletter span {
+#newsletter span,
+#magazine span,
+.nwk {
   display: block;
   width: 29px;
   height: 28px;
@@ -129,4 +132,16 @@ main h6 {
 
 .sticky::-webkit-scrollbar {
   display: none;
+}
+
+.magazine-img {
+  display: block;
+  font: bold 16px/33px "Roboto Condensed",
+    sans-serif;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, .9);
+  position: absolute;
+  bottom: 36px;
+  left: 0;
+  z-index: 1;
 }
