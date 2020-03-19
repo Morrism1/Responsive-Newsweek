@@ -16,7 +16,7 @@ body {
   position: fixed;
   z-index: 1;
   min-width: 360px !important;
-  height: 50px !important;
+  min-height: 50px !important;
 }
 
 #navbar-2 div {
@@ -219,7 +219,7 @@ footer svg {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   #header {
     display: none !important;
   }
