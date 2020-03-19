@@ -32,7 +32,7 @@ body {
 
 .brand-logo {
   min-height: 60px;
-  max-width: 396px;
+  min-width: 396px;
   margin: 10px auto 0;
   fill: #fff;
 }
