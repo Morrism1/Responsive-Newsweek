@@ -37,6 +37,16 @@ body {
   fill: #fff;
 }
 
+.icon-search{
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 130px;
+  font-size: 0;
+  position: absolute;
+}
+
 nav {
   background-color: #f72210;
   top: 0;
