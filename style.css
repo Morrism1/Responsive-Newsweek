@@ -79,11 +79,17 @@ main h6 {
 }
 
 .genre {
-  position: var(--my-position);
-  min-width: 80px;
-  background-color: #f1f2f5;
+  display: var(--my-display);
+  background-color: rgba(255, 255, 255, .9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
   z-index: 1;
-  font-size: 17px;
+  padding: 5px 16px;
+}
+
+.genre-2 {
+  bottom: -5px;
 }
 
 .debate-border {
