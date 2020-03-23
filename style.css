@@ -204,13 +204,15 @@ main h6 {
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…) center center / cover no-repeat;
 }
 
+.bottom-imgs {
+  width: 170px;
+  height: 228px;
+}
+
 .bottom-img {
   position: absolute;
   top: 19px;
-  z-index: 1;
   left: 80px;
-  width: 170px;
-  height: 228px;
 }
 
 .fig-img {
