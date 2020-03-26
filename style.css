@@ -48,10 +48,9 @@ body {
   background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
   width: 20px;
   height: 20px;
-  top: 20px;
-  right: 150px;
-  font-size: 0;
-  position: absolute;
+  top: 14px;
+  right: 21px;
+  position: var(--my-position);
 }
 
 nav {
@@ -68,8 +67,8 @@ footer,
 
 .brand-logo-2 {
   position: var(--my-position);
-  max-height: 20px;
-  min-width: 132px;
+  height: 20px;
+  width: 132px;
   fill: #fff;
   top: -18px;
 }
