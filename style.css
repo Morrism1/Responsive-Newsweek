@@ -27,14 +27,19 @@ body {
 }
 
 #navbar-2 div {
-  margin: -10px -10px;
-  padding: 13px;
+  margin: -10px 0;
+  padding: 2px;
 }
 
 .weather {
   min-height: 24px;
   width: 24px;
   margin: 0;
+}
+
+.weather-icon{
+  height: 20px;
+  width: 24px;
 }
 
 .brand-logo {
@@ -70,7 +75,6 @@ footer,
   height: 20px;
   width: 132px;
   fill: #fff;
-  top: -18px;
 }
 
 main h6 {
@@ -83,7 +87,6 @@ main h6 {
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 1;
   padding: 5px 16px;
 }
 
@@ -184,7 +187,6 @@ main h6 {
   position: absolute;
   bottom: 36px;
   left: 0;
-  z-index: 1;
 }
 
 .slideshow-info {
@@ -238,8 +240,8 @@ footer svg {
 }
 
 @media only screen and (max-width: 480px) {
-  #navbar-2 {
-    font-size: 60%;
+  .navbar-brand {
+    font-size: 95%;
   }
 }
 
