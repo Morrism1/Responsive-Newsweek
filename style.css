@@ -1,0 +1,263 @@
+:root {
+  --color: #f72210;
+  --my-color: #f4f5f6;
+  --my-display: block;
+  --my-position: relative;
+}
+
+body {
+  background-color: var(--my-color);
+  font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+#header {
+  min-height: 94px;
+  background-color: var(--color);
+  position: var(--my-position);
+  max-width: 1315px;
+}
+
+#navbar-2 {
+  position: fixed;
+  z-index: 1;
+  min-width: 360px !important;
+  min-height: 50px !important;
+}
+
+#navbar-2 div {
+  margin: -10px 0;
+  padding: 2px;
+}
+
+.weather {
+  min-height: 24px;
+  width: 24px;
+  margin: 0;
+}
+
+.weather-icon {
+  height: 20px;
+  width: 24px;
+}
+
+.brand-logo {
+  min-height: 60px;
+  min-width: 396px;
+  margin: 10px auto 0;
+  fill: #fff;
+}
+
+.search-input input {
+  width: 80px;
+  border: 0;
+  flex: 1;
+}
+
+.search-input input:focus {
+  width: 100%;
+  outline-width: 0;
+}
+
+.icon-search {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+  right: 21px;
+  position: var(--my-position);
+}
+
+nav {
+  background-color: var(--color);
+  top: 0;
+}
+
+main,
+header,
+footer,
+.navbar {
+  max-width: 1315px;
+}
+
+.brand-logo-2 {
+  position: var(--my-position);
+  height: 20px;
+  width: 132px;
+  fill: #fff;
+}
+
+main h6 {
+  color: rgba(154, 154, 154);
+}
+
+.genre {
+  display: var(--my-display);
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 16px;
+}
+
+.genre-2 {
+  bottom: -5px;
+}
+
+.debate-border {
+  border-top: 4px solid #f92859;
+  border-bottom: 4px double lightgrey;
+}
+
+.debate-text {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.debate-image {
+  height: 63px;
+  width: 63px;
+  position: var(--my-position);
+  margin-top: -70px;
+}
+
+.bd-2 {
+  border-top: 4px solid #1c87fb;
+}
+
+.vs-circle {
+  height: 40px;
+  width: 40px;
+}
+
+#newsletter {
+  width: 300px;
+  margin: 50px auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: var(--my-color);
+  padding: 20px;
+}
+
+#newsletter span,
+#magazine span,
+.nwk {
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat var(--color);
+  margin-right: 10px;
+}
+
+.sponsored {
+  position: var(--my-position);
+  left: 0;
+  top: 0;
+  width: auto;
+}
+
+.info {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 142px;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+}
+
+.sticky {
+  max-height: 1195px;
+  overflow-y: auto;
+  position: var(--my-position);
+}
+
+.sticky::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-danger,
+.btn-danger {
+  background-color: var(--color) !important;
+}
+
+.btn-danger {
+  border-color: var(--color) !important;
+}
+
+.text-danger {
+  color: var(--color) !important;
+}
+
+.magazine-img {
+  display: block;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  color: var(--color);
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 36px;
+  left: 0;
+}
+
+.slideshow-info {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 44px;
+  left: 0;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
+}
+
+.subscribe {
+  background-color: var(--my-color);
+  padding: 0 10px;
+}
+
+.sub-img {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…) center center / cover no-repeat;
+}
+
+.bottom-imgs {
+  width: 170px;
+  height: 228px;
+}
+
+.bottom-img {
+  position: absolute;
+  top: 19px;
+  left: 80px;
+}
+
+.fig-img {
+  margin-bottom: -16px;
+}
+
+footer {
+  margin-top: -22px;
+}
+
+footer svg {
+  fill: var(--color);
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-brand {
+    font-size: 67%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #header {
+    display: none !important;
+  }
+}
