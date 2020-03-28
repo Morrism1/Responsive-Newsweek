@@ -37,7 +37,7 @@ body {
   margin: 0;
 }
 
-.weather-icon{
+.weather-icon {
   height: 20px;
   width: 24px;
 }
@@ -49,11 +49,22 @@ body {
   fill: #fff;
 }
 
+.search-input input {
+  width: 80px;
+  border: 0;
+  flex: 1;
+}
+
+.search-input input:focus {
+  width: 100%;
+  outline-width: 0;
+}
+
 .icon-search {
   background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
   width: 20px;
   height: 20px;
-  top: 14px;
+  top: 13px;
   right: 21px;
   position: var(--my-position);
 }
@@ -241,7 +252,7 @@ footer svg {
 
 @media only screen and (max-width: 480px) {
   .navbar-brand {
-    font-size: 95%;
+    font-size: 80%;
   }
 }
 
